@@ -1,0 +1,20 @@
+{
+  "name": "csrf-token-binding-verifier",
+  "version": "1.0.0",
+  "description": "HMAC 绑定会话/用户/用途的 CSRF 防护库，支持密钥轮换、一次性消费、Origin 校验与时钟回拨保护",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ]
+}
